@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body,h1,h2,h3,ul,li{
+    margin:5;
+    padding:5px;
+}
+h1{
+    color:green;
+    background-color: blanchedalmond;
+    height: 60px;
+}
+body{
+    background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/virat-kohli-wallpaper-vinay-sainath.jpg);
+ background-size: 155%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.form1{
+    display:flex;
+    justify-content: center;
+    border: 3px solid blue;
+    border-radius: 50px;
+    width: 500px;
+    margin-left: 500px;
+    height:550px;
+    padding-top: 50px;
+    font-style: italic;
+}
+.form2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+   
+}
+#bt{
+    display: flex;
+    margin-left: 100px;
+    font-size: 20px;
+    width: 100px;
+    height: 25px;
+    color:white;
+    background: #b22222;
+    outline: none;
+    cursor: pointer;
+}
